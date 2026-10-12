@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jeevesh R - Resume</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #030903;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .resume {
+            width: 800px;
+            max-width: 100%;
+            margin: auto;
+            background: white;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #222;
+            padding-bottom: 15px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .header h3 {
+            margin: 8px 0;
+            font-weight: normal;
+            color: #555;
+        }
+
+        .contact {
+            font-size: 13px;
+            color: #444;
+        }
+
+        .contact a {
+            color: #222;
+            text-decoration: none;
+        }
+
+        section {
+            margin-top: 22px;
+        }
+
+        h2 {
+            font-size: 18px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #999;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 5px 0;
+        }
+
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+
+        li {
+            font-size: 14px;
+            margin-bottom: 6px;
+            line-height: 1.5;
+        }
+
+        .education-item,
+        .project-item,
+        .experience-item {
+            margin-bottom: 15px;
+        }
+
+        .education-item h3,
+        .project-item h3,
+        .experience-item h3 {
+            margin: 0;
+            font-size: 15px;
+        }
+
+        .sub {
+            color: #555;
+            font-size: 13px;
+            margin-top: 3px;
+        }
+
+        .skills {
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        .skills strong {
+            color: #222;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 35px;
+        }
+
+        @media (max-width: 700px) {
+            body {
+                padding: 0;
+            }
+
+            .resume {
+                padding: 25px;
+            }
+
+            .two-column {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .resume {
+                width: 100%;
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="resume">
+
+    <!-- HEADER -->
+    <div class="header">
+
+        <h1>JEEVESH R</h1>
+
+        <h3>Full-Stack Developer</h3>
+
+        <div class="contact">
+            Chennai, India |
+            +91 6369217557 |
+            <a href="mailto:jeevesh@gmail.com">
+                jeevesh@gmail.com
+            </a>
+            <br>
+
+            <a href="https://linkedin.com/in/jeevesh" target="_blank">
+                LinkedIn
+            </a>
+            |
+            <a href="https://github.com/jeevesh" target="_blank">
+                GitHub
+            </a>
+        </div>
+
+    </div>
+
+
+    <!-- PROFILE -->
+    <section>
+
+        <h2>Profile</h2>
+
+        <p>
+            Full-Stack Developer with knowledge of HTML, CSS, JavaScript,
+            React.js, Node.js, Express.js, and database technologies.
+            Interested in building responsive web applications, REST APIs,
+            and user-friendly software solutions.
+        </p>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section>
+
+        <h2>Education</h2>
+
+        <div class="education-item">
+
+            <h3>Bachelor of Engineering in Computer Science</h3>
+
+            <div class="sub">
+                S.A. Engineering College | 2023 – 2027 | 76%
+            </div>
+
+        </div>
+
+
+        <div class="education-item">
+
+            <h3>Higher Secondary Education</h3>
+
+            <div class="sub">
+                Vaariar Matric Hr. Sec. School | 2022 – 2023 | 86%
+            </div>
+
+        </div>
+
+
+        <div class="education-item">
+
+            <h3>Secondary Education</h3>
+
+            <div class="sub">
+                Vaariar Matric Hr. Sec. School | 2020 – 2021 | 100%
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section>
+
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+
+            <strong>Programming:</strong>
+            C, C++, Java, Python, JavaScript
+            <br>
+
+            <strong>Frontend:</strong>
+            HTML, CSS, JavaScript, React.js
+            <br>
+
+            <strong>Backend:</strong>
+            Node.js, Express.js, REST APIs
+            <br>
+
+            <strong>Database:</strong>
+            MySQL, MongoDB
+            <br>
+
+            <strong>Tools:</strong>
+            Git, GitHub, VS Code
+            <br>
+
+            <strong>Operating Systems:</strong>
+            Windows, Linux
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section>
+
+        <h2>Projects</h2>
+
+        <div class="project-item">
+
+            <h3>1. Emergency Specialist Doctor Finder</h3>
+
+            <div class="sub">
+                HTML | CSS | JavaScript | Node.js | Express.js | MongoDB
+            </div>
+
+            <p>
+                Developed a web application to help users find suitable
+                specialist doctors based on emergency symptoms and location.
+                Implemented doctor information and responsive user interfaces.
+            </p>
+
+        </div>
+
+
+        <div class="project-item">
+
+            <h3>2. Alzheimer's Disease Prediction System</h3>
+
+            <div class="sub">
+                Python | Machine Learning | Scikit-learn
+            </div>
+
+            <p>
+                Developed a machine learning system for Alzheimer's disease
+                prediction using medical data. Performed data preprocessing,
+                model training, evaluation, and prediction.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- INTERNSHIP + ACHIEVEMENTS -->
+    <div class="two-column">
+
+        <section>
+
+            <h2>Internship</h2>
+
+            <div class="experience-item">
+
+                <h3>Full-Stack / Frontend Developer Intern</h3>
+
+                <div class="sub">
+                    AmiHive Software Solutions
+                </div>
+
+                <ul>
+                    <li>Developed frontend components for web applications.</li>
+                    <li>Worked with web development technologies.</li>
+                    <li>Improved practical application development skills.</li>
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <section>
+
+            <h2>Achievements</h2>
+
+            <ul>
+                <li>Completed AWS certification.</li>
+                <li>Secured 2nd place in a hackathon.</li>
+            </ul>
+
+        </section>
+
+    </div>
+
+
+    <!-- CERTIFICATIONS + LANGUAGES -->
+    <div class="two-column">
+
+        <section>
+
+            <h2>Certifications</h2>
+
+            <ul>
+                <li>AWS Certified Cloud Practitioner</li>
+                <li>NPTEL – Programming in Java</li>
+                <li>NPTEL – Software Testing</li>
+            </ul>
+
+        </section>
+
+
+        <section>
+
+            <h2>Languages</h2>
+
+            <ul>
+                <li>English – Proficient</li>
+                <li>Tamil – Native</li>
+                <li>Telugu – Intermediate</li>
+            </ul>
+
+        </section>
+
+    </div>
+
+</div>
+
+</body>
+</html>
